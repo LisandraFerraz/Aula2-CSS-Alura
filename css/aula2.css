@@ -1,0 +1,101 @@
+/*IMERSAO CSS*/
+
+header {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center
+	
+}
+
+section {
+	font-family:courier;
+	color: black
+}
+
+.img-portfolio {
+	height: 250px;
+	width: 300px;
+	color: black;
+	font-family:courier;
+}
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	color:black;
+}
+
+body {
+	background-image: url('https://www.publicdomainpictures.net/pictures/130000/velka/gray-top-gradient-background.jpg');
+	background-size: auto 150vh;
+	font-family:courier;
+	background-attachment: fixed;
+	font-size: 12px;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 600px) {
+	body {
+		font-size: 18px;
+	}
+}
+
+.site-title, .site-subtitle {
+   color: black;
+   text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  font-family: courier;
+  font-size: 20px;
+}
+
+.menu a {
+	display: block;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-size: 120%;
+	color: grey';
+}
+
+.menu {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	background-color: #0B2644 ;
+	  
+}
+
+.menu ul {
+  display:flex; 
+  justify-content: space-evenly;
+}
+
+.menu li {
+	list-style:none;   
+  }
+  
+ section {
+	font-family:courier;
+	color: whitesmoke;
+	text-align: center;
+ }
+ 
+ h3 {
+	 color: black;
+	 font-family:courier;
+ }
